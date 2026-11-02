@@ -1,0 +1,40 @@
+/* Shared stylesheet for Lantern's public static pages (site/). Plain and
+   legible on purpose -- these are policy/consent pages, not the product. */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #1a1a1a;
+  line-height: 1.55;
+}
+header {
+  padding: 1.5rem;
+  background: #1a1d29;
+  color: #e8e8ec;
+}
+header h1 { margin: 0; font-size: 1.3rem; }
+header p { margin: 0.25rem 0 0; color: #9aa0b4; font-size: 0.9rem; }
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+h2 { margin-top: 2rem; }
+.needs-jeramie {
+  background: #fff3cd;
+  border: 1px solid #e0c35c;
+  border-radius: 6px;
+  padding: 0.15rem 0.5rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.85em;
+  color: #6b5600;
+}
+footer {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding: 0 1.5rem 2rem;
+  color: #666;
+  font-size: 0.85rem;
+}
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #ddd; vertical-align: top; }
